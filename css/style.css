@@ -36,15 +36,7 @@ section
     justify-content: space-between;
     gap: 30px;
 }
-.contentBx h3
-{
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-.contentBx p
-{
-    font-size: 18px;
-}
+
 .w50
 {
     min-width: 50%;
@@ -174,6 +166,19 @@ header.sticky ul li a
 }
 
 
+/* about section  */
+.contentBx h3,
+.text-content h3
+{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.contentBx p,
+.text-content p
+{
+    font-size: 20px;
+}
+
 
 
 /* Company section */
@@ -254,7 +259,7 @@ header.sticky ul li a
 .testimonial .t-content .testimonialBx
 {
     max-width:  calc(50% - 40px);
-    padding: 60px 40px;
+    padding: 20px 40px;
     margin: 20px;
     background: #2196f3;
 }
@@ -262,7 +267,7 @@ header.sticky ul li a
 {
     color: #fff;
     font-style: italic;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
 }
 .testimonial .t-content .testimonialBx h3
